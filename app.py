@@ -8,7 +8,7 @@ st.title("Clasificador de Imágenes - Ángel Pineda")
 
 # Cargar el modelo entrenado en formato SavedModel
 # Asegúrate de subir la carpeta "modelo_cifar10" completa a tu repositorio
-model = tf.keras.models.load_model("modelo_cifar10")
+model = tf.keras.models.load_model("modelo_cifar10.h5")
 
 # Etiquetas del dataset CIFAR-10
 labels = ['avión','auto','pájaro','gato','ciervo','perro','rana','caballo','barco','camión']
