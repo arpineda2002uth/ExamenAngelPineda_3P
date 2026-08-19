@@ -7,6 +7,7 @@ import numpy as np
 st.title("Clasificador de Imágenes - Ángel Pineda")
 
 # Cargar el modelo entrenado
+# Asegúrate de que 'modelo_cifar10.h5' esté en el repositorio
 model = tf.keras.models.load_model('modelo_cifar10.h5')
 
 # Etiquetas del dataset CIFAR-10
